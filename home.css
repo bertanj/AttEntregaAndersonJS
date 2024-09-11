@@ -1,0 +1,291 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    min-width: 600px;
+    max-width: 2000px;
+}
+#search{
+    width: Fixed (800px)px;
+    height: Fixed (50px)px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    margin: auto;
+}
+
+.slider{
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 1320px;
+    height: 400px;
+    top: 160px;
+    left: 60px;
+    gap: 0px;
+    margin: auto;
+    border: 1px 0px 0px 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    margin-top: 150px;
+    display: flex;
+    transition: 2s;
+}
+
+.slide img{
+    width: 800px;
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #FFF;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: #FFF;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -55%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -320%;
+}
+
+.navigation-auto div{
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 510px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #FFF;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #FFF;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #FFF;
+}
+
+element {
+    display: inline-flex;
+}
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    gap: 64px;
+    
+    position: absolute;
+    width: 1440px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 8px 10px rgba(9, 9, 55, 0.02);
+      
+  } 
+   
+  .img-logo-header {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  } 
+  
+  .nome-site{
+    height: 25px;
+    width: 25px;
+  }
+   
+  .Search-part{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+    width: 750px;
+    height: 50px;
+    background: #F4F4FF;
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  
+   .Search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    
+    width: 100%;
+    height: 27px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+   }
+
+
+.Search-icon{
+    width: 20px;
+    height: 20px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Search-text{
+    width: 90%;
+    height: 27px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: rgba(9, 9, 55, 0.4);
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#recomendacoes{
+    font-family: 'Times New Roman', Times, serif;    
+    font-size: 33px;
+    line-height: 43.71px;
+    text-align: center;
+}
+
+#titleacervo{
+    width: 1240px;
+    height: 90px;
+    top: 652px;
+    left: 60px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #0909371A
+    
+}
+
+#allBooks{
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
+    padding: 2%;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.432);
+    display: flex;
+    position: relative;
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr 5fr 5fr 2fr ; 
+    grid-template-rows: auto;
+}
+
+.livros{
+    background: rgba(244, 244, 255, 1);
+    padding: 10px 10px;
+    margin: 40px;
+    opacity: 1;
+    top: 64px;
+    left: 0px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    left: 85px;
+    transform: translate(-50%, -50%);
+}
+
+.livros:hover{
+    background-color: rgba(62, 62, 170, 0.616);
+    outline: 2px solid rgba(51, 51, 156, 0.781);
+    outline-offset: 5px
+}
+
+#verMais{
+    text-align: end;
+    margin-top: 180px;
+    color: rgb(62, 62, 170);
+}
+
+/*#banner{
+    width: 1320px;
+    height: 400px;
+    top: 160px;
+    left: 60px;
+    gap: 0px;
+    margin: auto;
+    border: 1px 0px 0px 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    margin-top: 150px;
+    display: flex;
+}*/
